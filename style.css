@@ -1,10 +1,19 @@
+body{
+    margin: 0;
+    padding: 0;
+}
 .headerUP{
-    height: 60px;
+    border-bottom: 1px solid rgb(180, 178, 178);
+    
+    
+}
+.headerUP_box{
     display: flex;
     flex-direction: row;
-    margin: 0 80px 0;
     align-items: center;
-
+    margin: 0 100px 0;
+    height: 70px;
+    
     
 }
 .headerUP_logo{
@@ -12,45 +21,69 @@
 }
 
 .headerUP_buttons{
-    color: darkgreen;
-    
-    
-    
+    color: rgb(77, 173, 77);
 }
-.button_SI{
-    
-}
+
 .button_GS{
     margin-left: 20px;
-    border: 1px solid green;
+    border: 1px solid rgb(77, 173, 77);
     border-radius: 4px;
-    padding: 8px;
+    padding: 8px 10px;
 }
-.border{
-    border-bottom: 1px solid rgb(211, 207, 207);
-}
-.main_img{
-    
-}
+
+
 .headerDOWN{
     display: flex;
-    height: 60px;
-    margin: 0 80px;
+    height: 50px;
+    margin: 0 100px;
     align-items: center;
 }
 .headerDOWN_text{
-     margin-left: 40px;
      color: grey;
 }
-.srch1{
+.srch{
     margin-left: 40px;
 }
-.srch2{
-    margin-left: 40px;
+
+.topic{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgb(180, 178, 178);
 }
-.srch3{
-    margin-left: 40px;
+.topic_box{
+    margin: 40px 60px 0;
+    width: 700px;
 }
-.srch4{
-    margin-left: 40px;
+
+.topic_title{
+    
+     font-size: 40px;
+     
+} 
+.topic_links{
+    display: flex;
+    margin: 20px 0;
+    align-items: center;
 }
+.topic_links_info{
+    margin-left: 20px;
+    flex: 1 0 auto;
+}
+.infoUP{
+    margin-bottom: 5px;
+}
+.infoUP_Follow{
+    margin-left: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 2px 6px;
+}
+
+.topic_text{
+    width: 700px;
+    font-size: 22px;
+}
+.topic_text_parag{
+    margin: 40px 0;
+}
+
