@@ -11,7 +11,7 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 0 100px 0;
+    margin: 0 250px 0;
     height: 70px;
     
     
@@ -35,7 +35,7 @@ body{
 .headerDOWN{
     display: flex;
     height: 50px;
-    margin: 0 100px;
+    margin: 0 250px;
     align-items: center;
 }
 .headerDOWN_text{
