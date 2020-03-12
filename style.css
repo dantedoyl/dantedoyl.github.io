@@ -1,0 +1,56 @@
+.headerUP{
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 80px 0;
+    align-items: center;
+
+    
+}
+.headerUP_logo{
+    flex: 1 0 auto;
+}
+
+.headerUP_buttons{
+    color: darkgreen;
+    
+    
+    
+}
+.button_SI{
+    
+}
+.button_GS{
+    margin-left: 20px;
+    border: 1px solid green;
+    border-radius: 4px;
+    padding: 8px;
+}
+.border{
+    border-bottom: 1px solid rgb(211, 207, 207);
+}
+.main_img{
+    
+}
+.headerDOWN{
+    display: flex;
+    height: 60px;
+    margin: 0 80px;
+    align-items: center;
+}
+.headerDOWN_text{
+     margin-left: 40px;
+     color: grey;
+}
+.srch1{
+    margin-left: 40px;
+}
+.srch2{
+    margin-left: 40px;
+}
+.srch3{
+    margin-left: 40px;
+}
+.srch4{
+    margin-left: 40px;
+}
