@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/8ee5ae06c6.js" crossorigin="anonymous"></script>
+    <title>Weather</title>
+</head>
+<body onload="main()">
+    <div class="header">
+        <i class="main_icon fas fa-umbrella"><span class = "iconText">.Погода</span></i>
+        <form class="Search_box" onsubmit="main(); return false;">
+            <input id ="city_search" type="text" placeholder="Введите город...">
+            <button class="Search_button"><i class="fas fa-bolt"></i></button>
+        </form>
+    </div>
+    <div class="basis">
+        <div id="WeatherToday">
+            <span class = "WeatherMain">
+                <span id="city_name">city_name</span>
+                
+                <div class="TempInfo">
+                    
+                    <span id ="temperature"></span>
+                    <img id = "wIcon" src="" alt="">
+                    <span id = "condition"></span>
+                </div>
+                <div class="AdditInfo">
+                    <i class="fas fa-wind"></i>
+                    <span id="wind"></span>
+                    <i class="fas fa-tint"></i>
+                    <span id="humidity"></span>
+                    <i class="fas fa-compass"></i>
+                    <span id="pressure"></span>
+                </div>
+            </span>
+            <span id = "WeatherTime"></span>
+        </div>
+    </div>
+</body>
+</html>
