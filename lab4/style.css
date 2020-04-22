@@ -1,0 +1,75 @@
+body{
+    background-position: center;
+    
+    
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1%;
+    margin: 1% 20% 3%;
+    border-bottom: 1px solid rgb(180, 178, 178);
+    font-family: fantasy;
+    
+}
+.header_title{
+    font-size: 200%;
+    
+}
+
+#basis{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px;;
+    width: 50%;
+    height: 600px;
+    max-width: 600px;
+  margin: 5px auto;
+  padding: 1%;
+  background-color: white;
+  box-shadow:
+   0 1px 4px rgba(0, 0, 0, .3),
+   -23px 0 20px -23px rgba(0, 0, 0, .8),
+   23px 0 20px -23px rgba(0, 0, 0, .8),
+   0 0 40px rgba(0, 0, 0, .1) inset;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   border-bottom: 1px solid rgb(180, 178, 178);
+   
+}
+.submit_form{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    max-width: 600px;
+    
+}
+.line{
+    margin: 5% 0 0;
+    height: 40px;
+    font-size: 25px;
+    
+}
+#Descrip{
+    height: 50px;
+    font-size: 15px;
+}
+#file_name{
+    font-size: 15px;
+}
+.sub_button{
+    margin-top: 10%;
+    font-size: 30px;
+    border-radius: 8px;
+    padding: 1px 30px;
+}
+.Info{
+    font-size: 80%;
+    color: gray;
+}
+
+@media only screen and (max-width: 1000px){
+
+}

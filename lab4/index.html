@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-storage.js"></script>
+    <script src="script.js"></script>
+    <script src="app.js"></script>
+    <title>Форма</title>
+</head>
+<body>
+    <div class="header">
+        <div class="header_title">Форма обратной связи.</div>
+    </div>
+<div class="back">
+    <div id = "basis">
+        <form class = "submit_form" onsubmit="main(); return false;">
+            <input class="line" id="fio" required type="text" placeholder="ФИО*" pattern="[a-zA-Zа-яА-Я]+">
+            <div class="Info">Строчные и прописные буквы русского и латинского алфавита</div>
+            <input class="line" id="email" type="email" placeholder="E-Mail*" required value="">
+            <div class="Info">Формат ввода:__@__.__</div>
+            <input class="line" id="Phone" type="text" pattern="[0-9]{10}" placeholder="Телефон" >
+            <div class="Info">10 цифр</div>
+            <textarea class="line" id="Descrip" type="text" placeholder="Описание проблемы"></textarea>
+            <input class="line" id="file_name" required type="file" >  
+            <button class = "sub_button" type = "submit">ОТПРАВИТЬ</button>          
+        </form>
+        
+    </div>
+</div>
+</body>
+</html>
