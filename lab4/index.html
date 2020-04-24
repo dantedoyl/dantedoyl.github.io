@@ -18,7 +18,7 @@
 <div class="back">
     <div id = "basis">
         <form class = "submit_form" onsubmit="main(); return false;">
-            <input class="line" id="fio" required type="text" placeholder="ФИО*" pattern="[a-zA-Zа-яА-Я]+">
+            <input class="line" id="fio" required type="text" placeholder="ФИО*" pattern="[a-zA-Zа-яА-Я\s]+">
             <div class="Info">Строчные и прописные буквы русского и латинского алфавита</div>
             <input class="line" id="email" type="email" placeholder="E-Mail*" required value="">
             <div class="Info">Формат ввода:__@__.__</div>
